@@ -1,4 +1,4 @@
-FROM python:3.10-slim-buster
+FROM python:slim
 
 RUN pip install --no-cache-dir pip --upgrade && \
     pip install --no-cache-dir ansible uptime-kuma-api && \
